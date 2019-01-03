@@ -13,6 +13,8 @@
             <outputDirectory/>
             <includes>
               <include>${project.artifactId}-${project.version}.jar</include>
+              <include>${project.artifactId}-${project.version}-sources.jar</include>
+              <include>${project.artifactId}-${project.version}-javadoc.jar</include>
             </includes>
         </fileSet>
     </fileSets>
